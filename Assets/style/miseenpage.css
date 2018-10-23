@@ -1,27 +1,178 @@
 
+nav ul {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ text-align:center;
+ 
+ }
 
-
-
-.couleur{
-	color:green;
-	
+nav li {
+ float:left; /*pour IE*/
+ width:130px;
+ border-style:1px;
+ margin:auto;
+ }
+ 
+nav li a {
+ display:block;
+ width:120px;
+ line-height:40px; /*hauteur de l'image de fond*/
+ background:#525261 url(images/noir-1.png) repeat-x;
+ color:#DCDCDC;
+ text-decoration:none;
+ height:40px;
+ }
+ 
+nav li ul  {
+position:absolute;
 }
 
-.container{
-	position:relative;
-	
-}
+nav ul li ul {
+ display:none;
+ }
 
-.centered{
-	position:absolute;
-	color:white;
-	top:40%;
-	left:40%;
-	
-	
-}	
+nav li a:hover {
+ background:#7399a1 url(images/noir-2.png) repeat-x;
+ color:#EDEDEF;
+ border-style:10px;
+ z-index:2;
 
-img{
-	border: 3px solid red;
-	width: 100%;
-}
+ }
+
+nav li:hover ul li {
+ float:none;
+ }
+ 
+nav ul li:hover ul {
+ display:block;
+ } 
+	
+	
+
+	
+
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
