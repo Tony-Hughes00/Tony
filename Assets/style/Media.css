@@ -1,0 +1,152 @@
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 992px) {
+
+	#technique > div > div > div[class="columnl"]{
+		float: left;
+		color: orange;
+		width: 30%;
+	}
+	#technique > div > div > div[class="column"]{
+		float: left;
+		color: red;
+		width: 60%;
+	}
+	#technique > div > div > div[class="columnr"]{
+		display: none;
+		float: left;
+		width: 33%;
+	}
+}
+@media only screen and (max-width: 600px) {
+
+	#technique > div > div > div[class="columnl"]{
+		float: left;
+		color: orange;
+		width: 100%;
+	}
+	#technique > div > div > div[class="column"]{
+		float: left;
+		color: red;
+		width: 100%;
+	}
+	#technique > div > div > div[class="columnr"]{
+		display: none;
+		float: left;
+		width: 33%;
+	}
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 992px) {
+
+	#meditation > div > div > div[class="columnl"]{
+		float: left;
+		color: orange;
+		width: 30%;
+	}
+	#meditation > div > div > div[class="column"]{
+		float: left;
+		color: red;
+		width: 60%;
+	}
+	#meditation > div > div > div[class="columnr"]{
+		display: none;
+		float: left;
+		width: 33%;
+	}
+}
+@media only screen and (max-width: 600px) {
+
+	#meditation > div > div > div[class="columnl"]{
+		float: left;
+		color: orange;
+		width: 100%;
+	}
+	#meditation > div > div > div[class="column"]{
+		float: left;
+		color: red;
+		width: 100%;
+	}
+	#meditation > div > div > div[class="columnr"]{
+		display: none;
+		float: left;
+		width: 33%;
+	}
+
+}/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 992px) {
+
+	#alimentation > div > div > div[class="columnl"]{
+		float: left;
+		color: orange;
+		width: 30%;
+	}
+	#alimentation > div > div > div[class="column"]{
+		float: left;
+		color: red;
+		width: 60%;
+	}
+	#alimentation > div > div > div[class="columnr"]{
+		display: none;
+		float: left;
+		width: 33%;
+	}
+}
+@media only screen and (max-width: 600px) {
+
+	#alimentation > div > div > div[class="columnl"]{
+		float: left;
+		color: orange;
+		width: 100%;
+	}
+	#alimentation > div > div > div[class="column"]{
+		float: left;
+		color: red;
+		width: 100%;
+	}
+	#alimentation > div > div > div[class="columnr"]{
+		display: none;
+		float: left;
+		width: 33%;
+	}
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 992px) {
+
+	#Hygiene > div > div > div[class="columnl"]{
+		float: left;
+		color: orange;
+		width: 30%;
+	}
+	#Hygiene > div > div > div[class="column"]{
+		float: left;
+		color: red;
+		width: 60%;
+	}
+	#Hygiene > div > div > div[class="columnr"]{
+		display: none;
+		float: left;
+		width: 33%;
+	}
+}
+@media only screen and (max-width: 600px) {
+
+	#Hygiene > div > div > div[class="columnl"]{
+		float: left;
+		color: orange;
+		width: 100%;
+	}
+	#Hygiene > div > div > div[class="column"]{
+		float: left;
+		color: red;
+		width: 100%;
+	}
+	#Hygiene > div > div > div[class="columnr"]{
+		display: none;
+		float: left;
+		width: 33%;
+	}
+
+}

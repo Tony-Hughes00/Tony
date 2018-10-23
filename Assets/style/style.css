@@ -1,0 +1,559 @@
+h1 {
+	color: blue;
+}
+
+/*.home_body h1{
+	color: orange;
+} */
+body h1:first-of-type {
+	position: fixed;
+	top: 0px;
+	margin: auto;
+	width: 80%;
+	text-align: center;
+	z-index: 10;
+}
+.topnav {
+	top: 60px;
+	position: fixed;
+	background-color: #00FFFF;
+	width: 90%;
+	height: auto; /*40px; */
+	z-index: 10;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 50px;
+/*	padding-top: 15px; */
+}
+.topnav::after {
+	clear: both;
+}
+.topnav a {
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	background-color: black;
+	color: white;
+	font-size: 1.3em;
+}
+.topnav a:hover {
+	border-top: 5px solid orange;
+	background-color: orange;
+}
+#myTopnav .activeOne{
+	background-color: orange;
+	
+}
+#myTopnav ul {
+   list-style-type: none;
+}
+.topnav li {
+	float: left;
+}
+#myTopnav ul ul {
+	position: absolute;
+}
+#myTopnav li li {
+	position: relative;
+	max-height: 0;
+	max-width: 0;
+	overflow: hidden;
+	float: none;
+}
+#myTopnav li:hover li {
+  max-height: 15em;
+  max-width: 15em;
+}
+.columnl {
+	z-index: 10;
+	height: auto;
+}
+.column {
+	z-index: 10;
+	height: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.columnr {
+	z-index: 10;
+	height: auto;
+}
+body {
+	height: auto;
+}
+.content{
+	clear: both;
+	height: auto;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.padding {
+	height: 100px;
+}
+.row {
+	position: relative;
+	clear: both;
+	height: auto;
+	width: 100%;
+	overflow:auto;
+	z-index: 5;
+	height: auto;
+	padding-top: 0px;
+	margin-top: 2px;
+}
+store {
+	background-image: url("../images/home.png");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+	background-size: contain; 
+}
+#home_image {
+	max-height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+#left_pane1 {
+	float: left;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+}
+#main_div1 {
+	opacity: 0.5;
+}
+#right_pane {
+	z-index: 2;
+}
+#espace_eleve"{
+	height: auto;
+}
+
+#blog{
+	height: auto;
+}
+#main_div1{
+	height: auto;
+}
+#main_content{
+	height: auto;
+}
+#navigation2{
+	height: auto;
+	width: 80%;
+	margin: auto;
+}
+#right_pane{
+	height: auto;
+	z-index: 2;
+}
+#recette{
+	height: auto;
+}
+#archive{
+	height: auto;
+}
+#archive > h3{
+	text-align: center;
+}
+#archive > p{
+	text-align: center;
+}
+#home_body > div > div > div[class="columnl"]{
+	float: left;
+	color: green;
+	width: 20%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+}
+#home_body > div > div > div[class="column"]{
+	float: left;
+	display: none;
+	color: red;
+	width: 66%;
+}
+#home_body > div > div > div[class="columnr"]{
+	float: left;
+	display: none;
+	width: 0%;
+}
+#home_body > div > div > div[class="columnl"] img {
+	width: 100%;
+}
+
+#home_body > div > div > div[class="column"] > div[id="navigation2"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+#home_boutique {
+	max-height: 100%;
+	max-width: 100%;
+}
+#e_boutique{
+	height: auto;
+	background-color: #ffffff;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+#espace_eleve{
+	height: auto;
+	background-color: #ffffff;
+}
+#home_blog{
+	height: auto;
+	background-color: #ffffff;
+}
+#home_blog img {
+	width: 100%;
+}
+
+#espaceeleve_body > div > div > div[class="columnl"]{
+	float: left;
+	color: orange;
+	width: 20%;
+	display: none;
+}
+#espaceeleve_body > div > div > div[class="column"]{
+	float: left;
+	width: 60%;
+	margin: auto;
+}
+#espaceeleve_body > div > div > div[class="columnr"]{
+	float: left;
+	width: 33%;
+	display: none;
+}
+#espaceeleve_body > div > div > div[class="column"] > div[id="navigation2"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+#espaceeleve_body > div > div > div[class="column"] > div[id="main_div"]{
+	float: left;
+	color: red;
+	width: 33%;
+}
+
+#espaceeleve_body > div > div > div[class="column"] > div[id="home_image"]{
+	position: aboslute;
+}
+
+#technique > div > div > div[class="columnl"]{
+	float: left;
+	color: orange;
+	width: 20%;
+}
+#technique > div > div > div[class="column"]{
+	float: left;
+	color: red;
+	width: 40%;
+}
+#technique > div > div > div[class="columnr"]{
+	float: left;
+	width: 33%;
+}
+#technique > div > div > div[class="columnl"] > div[id="espace_eleve"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+#technique > div > div > div[class="columnr"] > div[id="recette"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+#technique > div > div > div[class="columnl"] img {
+	width: 100%;
+}
+#technique > div > div > div[class="column"] img {
+	width: 100%;
+}
+
+#prana > div > div > div[class="columnl"]{
+	float: left;
+	color: orange;
+	width: 20%;
+}
+#prana > div > div > div[class="column"]{
+	float: left;
+	color: red;
+	width: 63%;
+}
+#prana > div > div > div[class="columnr"]{
+	float: left;
+	color: green;
+	width: 15%;
+}
+
+#prana > div > div > div[class="columnl"] > div[id="espace_eleve"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+#prana > div > div > div[class="columnr"] > div[id="recette"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+
+#meditation > div > div > div[class="columnl"]{
+	float: left;
+	color: orange;
+	width: 20%;
+}
+#meditation > div > div > div[class="column"]{
+	float: left;
+	width: 63%;
+	font-size: 2em;
+}
+#meditation > div > div > div[class="columnr"]{
+	float: left;
+	color: green;
+	width: 15%;
+}
+#meditation > div > div > div[class="columnl"] > div[id="espace_eleve"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+#meditation > div > div > div[class="column"] > div[id="navigation2"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+#meditation > div > div > div[class="columnr"] > div[id="recette"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+#meditation > div > div > div[class="columnl"] img {
+	width: 100%;
+}
+#Hygiene > div > div > div[class="columnl"]{
+	float: left;
+	color: orange;
+	width: 20%;
+}
+#Hygiene > div > div > div[class="column"]{
+	float: left;
+	color: red;
+	width: 75%;
+}
+#Hygiene > div > div > div[class="columnr"]{
+	display: none;
+	float: left;
+	color: green;
+	width: 33%;
+}
+#Hygiene > div > div > div[class="columnl"] > div[id="espace_eleve"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+#Hygiene > div > div > div[class="column"] > div[id="navigation2"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+#Hygiene > div > div > div[class="columnl"] img {
+	width: 100%;
+}
+
+#alimentation > div > div > div[class="columnl"]{
+	float: left;
+	color: orange;
+	width: 20%;
+}
+#alimentation > div > div > div[class="column"]{
+	float: left;
+	color: red;
+	width: 70%;
+}
+#alimentation > div > div > div[class="columnr"]{
+	float: left;
+	color: green;
+	width: 55%;
+	display: none;
+}
+#alimentation > div > div > div[class="columnl"] > div[id="espace_eleve"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+#alimentation > div > div > div[class="column"] > div[id="navigation2"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+#alimentation > div > div > div[class="columnr"] > div[id="archive"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+
+#planning > div > div > div[class="columnl"]{
+	float: left;
+	display: none;
+	color: orange;
+	width: 0%;
+}
+#planning > div > div > div[class="column"]{
+    margin-left: auto;
+    margin-right: auto;
+	display: block;
+	color: black;
+	width: 66%;
+}
+#planning > div > div > div[class="column"] > div[id="navigation2"]{
+	display: none;
+}
+#planning > div > div > div[class="columnr"]{
+	float: left;
+	display: none;
+	color: green;
+	width: 0%;
+}
+
+#ateliers > div > div > div[class="columnl"]{
+	float: left;
+	display: none;
+	color: orange;
+	width: 0%;
+}
+#ateliers > div > div > div[class="column"]{
+    margin-left: auto;
+    margin-right: auto;
+	display: block;
+	color: red;
+	width: 66%;
+}
+#ateliers > div > div > div[class="columnr"]{
+	float: left;
+	display: none;
+	color: green;
+	width: 0%;
+}
+#eboutique > div > div > div[class="columnl"]{
+	display: none;
+	float: left;
+	color: orange;
+	width: 20%;
+}
+#eboutique > div > div > div[class="column"]{
+	float: left;
+	color: red;
+	width: 90%;
+}
+#eboutique > div > div > div[class="column"] > div[id="main_content"]{
+	margin: auto;
+	width: 60%;
+}
+
+#eboutique > div > div > div[class="columnr"]{
+	display: none;
+	float: left;
+	color: green;
+	width: 55%;
+}
+#eBoutiqueImage {
+	max-height: 100%;
+	width: 100%;
+	padding: auto;
+}
+.row1 {
+	padding-top: 40px;
+	margin-top: 2px;
+	
+}
+.row:after {
+    clear: both;
+}
+.thumbnail-container {
+    overflow-x:scroll;
+    height: auto;
+    width:100%;
+    padding: 0 15px;
+}
+.thumbnail-container-tech {
+    overflow-x:scroll;
+    height: auto;
+    width:100%;
+}
+.thumbnail-container-arch {
+    height: auto;
+    width:100%;
+}
+.thumbnail-container-arch img {
+	width: 100%;
+}
+.thumbnail-list {
+	height: auto;
+    white-space:nowrap;
+}
+.thumbnail-list li {
+   display: inline-block;
+}
+.thumbnail-image {
+    display: block;
+    padding:2px;
+    max-width: 100px;
+    height:100px;
+}
+.thumbnail-list li a:hover img{ 
+	/* grossissement */ 
+	-webkit-transform: scale(1.5) rotate(-10deg); 
+	-moz-transform: scale(1.5) rotate(-10deg); 
+	-o-transform: scale(1.5) rotate(-10deg); 
+	-ms-transform: scale(1.5) rotate(-10deg); 
+	transform: scale(1.5) rotate(-10deg); 
+	/* ombre */ 
+	-webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.5); 
+	-moz-box-shadow: 4px 4px 10px rgba(0,0,0,0.5); 
+	-o-box-shadow: 4px 4px 10px rgba(0,0,0,0.5); 
+	-ms-box-shadow: 4px 4px 10px rgba(0,0,0,0.5); 
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.5); 
+}
+.thumbnail-list-arch li a:hover img{ 
+	/* grossissement */ 
+	-webkit-transform: scale(1.5); 
+	-moz-transform: scale(1.5); 
+	-o-transform: scale(1.5); 
+	-ms-transform: scale(1.5); 
+	transform: scale(1.5); 
+	/* ombre */ 
+	-webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.5); 
+	-moz-box-shadow: 4px 4px 10px rgba(0,0,0,0.5); 
+	-o-box-shadow: 4px 4px 10px rgba(0,0,0,0.5); 
+	-ms-box-shadow: 4px 4px 10px rgba(0,0,0,0.5); 
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.5); 
+}
+.thumbnail-image-arch {
+    display: block;
+    padding:2px;
+    max-width: 90%;
+    height:100px;
+}
+.thumbnail-image-narrow {
+    display: block;
+    padding:2px;
+    max-width: 90%;
+    height:50px;
+}
