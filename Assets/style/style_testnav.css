@@ -1,0 +1,443 @@
+h1 {
+	color: blue;
+}
+
+.home_body h1{
+		color: orange;
+}
+nav {
+	position: fixed;
+	background-color: #00FFFF;
+/*	background-color: #00FFFF;   */
+	background-color: red;
+	width: 90%;
+	height: 40px;
+	z-index: 10;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 50px;
+	padding-top: 15px;
+}
+nav::after {
+	clear: both;
+}
+nav li{ 
+	float:left; 
+	width:140px; 
+	height:35px; 
+	background-color:black; 
+	text-align: center; 
+	border-left: 1px white solid; 
+	border-right: 1px white solid; 
+	line-height:35px; 
+	list-style:none; 
+}
+nav a {
+	margin-right: 10px;
+}
+.columnl {
+	z-index: 10;
+	height: auto;
+	border: px solid red;
+}
+.column {
+	z-index: 10;
+	height: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.columnr {
+	z-index: 10;
+	height: auto;
+}
+body {
+	height: auto;
+}
+.content{
+	clear: both;
+	border: 3px solid green;
+	height: auto;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.padding {
+	height: 50px;
+}
+.row {
+	position: relative;
+	clear: both;
+	height: auto;
+	border: 5px solid yellow;
+	width: 100%;
+	overflow:auto;
+	z-index: 5;
+	height: auto;
+	padding-top: 0px;
+	margin-top: 2px;
+}
+store {
+	background-image: url("../images/home.png");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+	background-size: contain; 
+}
+#home_image {
+	max-height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+#left_pane1 {
+	float: left;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+}
+#main_div1 {
+	opacity: 0.5;
+}
+#right_pane {
+	z-index: 2;
+}
+#espace_eleve"{
+	height: auto;
+}
+
+#blog{
+	height: auto;
+}
+#main_div1{
+	height: auto;
+}
+#main_content{
+	height: auto;
+}
+#navigation2{
+	height: auto;
+}
+#right_pane{
+	height: auto;
+	z-index: 2;
+}
+#recette{
+	height: auto;
+}
+#archive{
+	height: auto;
+}
+#archive > h3{
+	text-align: center;
+}
+#archive > p{
+	text-align: center;
+}
+#home_body > div > div > div[class="columnl"]{
+	float: left;
+	color: green;
+	width: 20%;
+	border: 5px solid red;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+}
+#home_body > div > div > div[class="column"]{
+	float: left;
+	display: none;
+	color: red;
+	width: 66%;
+	border: 5px solid blue;
+}
+#home_body > div > div > div[class="columnr"]{
+	float: left;
+	display: none;
+	width: 0%;
+	border: 5px solid yellow;
+}
+#home_body > div > div > div[class="column"] > div[id="navigation2"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+#home_boutique {
+	max-height: 100%;
+	max-width: 100%;
+}
+#e_boutique{
+	height: auto;
+	background-color: #ffffff;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+#espace_eleve{
+	height: auto;
+	background-color: #ffffff;
+}
+#home_blog{
+	height: auto;
+	background-color: #ffffff;
+}
+#technique > div > div > div[class="columnl"]{
+	float: left;
+	color: orange;
+	width: 20%;
+}
+#technique > div > div > div[class="column"]{
+	float: left;
+	color: red;
+	width: 45%;
+}
+#technique > div > div > div[class="columnr"]{
+	float: left;
+	width: 33%;
+}
+#technique > div > div > div[class="columnl"] > div[id="espace_eleve"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+#technique > div > div > div[class="columnr"] > div[id="recette"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+#prana > div > div > div[class="columnl"]{
+	float: left;
+	color: orange;
+	width: 20%;
+}
+#prana > div > div > div[class="column"]{
+	float: left;
+	color: red;
+	width: 63%;
+}
+#prana > div > div > div[class="columnr"]{
+	float: left;
+	color: green;
+	width: 15%;
+}
+#prana > div > div > div[class="columnl"] > div[id="espace_eleve"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+#prana > div > div > div[class="columnr"] > div[id="recette"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+
+#meditation > div > div > div[class="columnl"]{
+	float: left;
+	color: orange;
+	width: 20%;
+}
+#meditation > div > div > div[class="column"]{
+	float: left;
+	color: red;
+	width: 63%;
+}
+#meditation > div > div > div[class="columnr"]{
+	float: left;
+	color: green;
+	width: 15%;
+}
+#meditation > div > div > div[class="columnl"] > div[id="espace_eleve"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+#meditation > div > div > div[class="column"] > div[id="navigation2"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+#meditation > div > div > div[class="columnr"] > div[id="recette"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+
+#Hygiene > div > div > div[class="columnl"]{
+	float: left;
+	color: orange;
+	width: 20%;
+}
+#Hygiene > div > div > div[class="column"]{
+	float: left;
+	color: red;
+	width: 75%;
+}
+#Hygiene > div > div > div[class="columnr"]{
+	display: none;
+	float: left;
+	color: green;
+	width: 33%;
+}
+#Hygiene > div > div > div[class="columnl"] > div[id="espace_eleve"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+#Hygiene > div > div > div[class="column"] > div[id="navigation2"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+
+#alimentation > div > div > div[class="columnl"]{
+	float: left;
+	color: orange;
+	width: 20%;
+}
+#alimentation > div > div > div[class="column"]{
+	float: left;
+	color: red;
+	width: 20%;
+}
+#alimentation > div > div > div[class="columnr"]{
+	float: left;
+	color: green;
+	width: 55%;
+}
+#alimentation > div > div > div[class="columnl"] > div[id="espace_eleve"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+#alimentation > div > div > div[class="column"] > div[id="navigation2"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+#alimentation > div > div > div[class="columnr"] > div[id="archive"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+
+#planning > div > div > div[class="columnl"]{
+	float: left;
+	display: none;
+	color: orange;
+	width: 0%;
+}
+#planning > div > div > div[class="column"]{
+    margin-left: auto;
+    margin-right: auto;
+	display: block;
+	color: black;
+	width: 66%;
+	border: 5px solid red;
+}
+#planning > div > div > div[class="column"] > div[id="navigation2"]{
+	display: none;
+}
+#planning > div > div > div[class="columnr"]{
+	float: left;
+	display: none;
+	color: green;
+	width: 0%;
+}
+
+#ateliers > div > div > div[class="columnl"]{
+	float: left;
+	display: none;
+	color: orange;
+	width: 0%;
+}
+#ateliers > div > div > div[class="column"]{
+    margin-left: auto;
+    margin-right: auto;
+	display: block;
+	color: red;
+	width: 66%;
+}
+#ateliers > div > div > div[class="columnr"]{
+	float: left;
+	display: none;
+	color: green;
+	width: 0%;
+}
+#eboutique > div > div > div[class="columnl"]{
+	display: none;
+	float: left;
+	color: orange;
+	width: 20%;
+}
+#eboutique > div > div > div[class="column"]{
+	float: left;
+	color: red;
+	width: 90%;
+}
+#eboutique > div > div > div[class="columnr"]{
+	display: none;
+	float: left;
+	color: green;
+	width: 55%;
+}
+#eBoutiqueImage {
+	max-height: 100%;
+	width: 100%;
+}
+.row1 {
+	padding-top: 40px;
+	margin-top: 2px;
+	
+}
+.row:after {
+    clear: both;
+}
+.thumbnail-container {
+    overflow-x:scroll;
+    height: auto;
+    width:100%;
+    padding: 0 15px;
+}
+.thumbnail-container-tech {
+    overflow-x:scroll;
+    height: auto;
+    width:100%;
+}
+.thumbnail-container-arch {
+    height: auto;
+    width:100%;
+}
+.thumbnail-list {
+	height: auto;
+    white-space:nowrap;
+}
+.thumbnail-list li {
+   display: inline-block;
+}
+.thumbnail-image {
+    display: block;
+    padding:2px;
+    max-width: 100px;
+    height:100px;
+}
+.thumbnail-image-arch {
+    display: block;
+    padding:2px;
+    max-width: 90%;
+    height:100px;
+}
+.thumbnail-image-narrow {
+    display: block;
+    padding:2px;
+    max-width: 90%;
+    height:50px;
+}
