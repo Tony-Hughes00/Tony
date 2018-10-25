@@ -420,7 +420,7 @@ store {
     margin-right: auto;
 	display: block;
 	color: black;
-	width: 66%;
+	width: 100%;
 }
 #planning > div > div > div[class="column"] > div[id="navigation2"]{
 	display: none;
@@ -442,14 +442,19 @@ store {
     margin-left: auto;
     margin-right: auto;
 	display: block;
-	color: red;
-	width: 66%;
+	width: 90%;
+}
+#ateliers > div > div > div[class="column"] > div[id="main_div"]{
+	border: 5 solid red;
 }
 #ateliers > div > div > div[class="columnr"]{
 	float: left;
 	display: none;
 	color: green;
 	width: 0%;
+}
+#ateliers > div > div > div[class="column"] > div[id="navigation2"]{
+	display: none;
 }
 #eboutique > div > div > div[class="columnl"]{
 	display: none;
