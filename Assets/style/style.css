@@ -1,30 +1,19 @@
-h1 {
-	color: blue;
-}
-
-/*.home_body h1{
-	color: orange;
-} */
-body h1:first-of-type {
-	position: fixed;
-	top: 0px;
-	margin: auto;
-	width: 80%;
-	text-align: center;
-	z-index: 10;
-}
+/*
+orange #E87400
+green #89A02C
+brown #B95C00
+*/
 .topnav {
-	top: 60px;
-	position: fixed;
-	background-color: #00FFFF;
+	clear: left;
+	background-color: #89A02C;
 	width: 90%;
+	margin-left: 5%
 	height: auto; /*40px; */
 	z-index: 10;
-	margin-left: 5%;
-	margin-right: 5%;
-	padding-left: 50px;
-/*	padding-top: 15px; */
-}
+	margin-bottom: 50px;
+	border: 10px solid #89A02C;
+
+	}
 .topnav::after {
 	clear: both;
 }
@@ -33,23 +22,33 @@ body h1:first-of-type {
 	padding-left: 5px;
 	padding-bottom: 3px;
 	padding-top: 3px;
-	background-color: black;
 	color: white;
 	font-size: 1.3em;
 }
 .topnav a:hover {
-	border-top: 5px solid orange;
-	background-color: orange;
+	border-top: 5px solid #E87400;
+	background-color: #E87400;
+	border-radius: 20%;
+
+}
+.topnav li:hover {
+	border-radius: 20%;
 }
 #myTopnav .activeOne{
-	background-color: orange;
-	
+	background-color: #E87400;
+	border-radius: 20%;
+
 }
 #myTopnav ul {
-   list-style-type: none;
+	list-style-type: none;
+	height: auto;
+	margin-top: 0px;
 }
 .topnav li {
 	float: left;
+	background: #B95C00;
+	border-radius: 20%;
+	margin-left: 5px;
 }
 #myTopnav ul ul {
 	position: absolute;
@@ -62,9 +61,12 @@ body h1:first-of-type {
 	float: none;
 }
 #myTopnav li:hover li {
-  max-height: 15em;
-  max-width: 15em;
+	max-height: 15em;
+	max-width: 15em;
+	background-color: #E87400;
+	border-radius: 20%;
 }
+
 .columnl {
 	z-index: 10;
 	height: auto;
@@ -81,15 +83,93 @@ body h1:first-of-type {
 }
 body {
 	height: auto;
+	background-image: url("../images/background.jpg");
+}
+#header {
+	position: fixed;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #89A02C;
+	height: 100px;
+	z-index: 20;
+/*	border-left: 4px solid #89A02C;
+/*	border-right: 3% solid #89A02C;	
+	border-bottom: 3% solid #89A02C;*/
+	border-bottom: 3% solid #89A02C;
+	border-top-left-radius: 80px;
+	border-top-right-radius: 80px;
+	
+	padding-left: 0px;
+	padding-right: 7px;
+
+	}
+#header img {
+	display: inline-block;
+}
+#logo {
+	float: left;
+	width: 30%;
+	margin-left: 8%;
+}
+#logo img {
+	width: 50px;
+	border: 5px solid #FFFFFF;
+	border-radius: 50%;
+}
+#title {
+	float: left;
+	width: auto;
+	height: 50px;
+}
+#title p {
+	display: inline-block;
+	float: left;
+	position: relative;
+	text-shadow: 2px 2px #ff0000;
+	color: #FFFFFF;
+	font-size: 2em;
+	top: -25px;
+	line-height: 30px;
+	height: 30px;
+	padding-top: 0px;
+}
+#espace-eleve {
+	border: 2px solid green;
+	margin-right: 8%;
+	float: right;
+}
+#footer {
+	background-color: #89A02C;
+	position: relative;
+	top: 100px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-left: 10px;
+	padding-right: 10px;
+	z-index: 30;
+	margin-bottom: 30px;
+	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+}
+#home_content {
+	background-color: #FFFFFF;
 }
 .content{
 	clear: both;
+	position: relative;
 	height: auto;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #89A02C;
+	top: 100px;
 }
 .padding {
-	height: 100px;
+	height: 120px;
 }
 .row {
 	position: relative;
@@ -101,6 +181,7 @@ body {
 	height: auto;
 	padding-top: 0px;
 	margin-top: 2px;
+	background-color: #ffffff;
 }
 store {
 	background-image: url("../images/home.png");
@@ -211,7 +292,18 @@ store {
 #home_blog img {
 	width: 100%;
 }
-
+#blog_body > div > div > div[class="columnl"]{
+	display: none;
+}
+#blog_body > div > div > div[class="columnr"]{
+	display: none;
+}
+#blog_body > div > div > div[class="column"] > div[id="navigation2"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
 #espaceeleve_body > div > div > div[class="columnl"]{
 	float: left;
 	color: orange;
@@ -251,7 +343,6 @@ store {
 }
 #technique > div > div > div[class="column"]{
 	float: left;
-	color: red;
 	width: 40%;
 }
 #technique > div > div > div[class="columnr"]{
@@ -275,6 +366,12 @@ store {
 }
 #technique > div > div > div[class="column"] img {
 	width: 100%;
+}
+#technique > div > div > div[class="column"] > div[id="navigation2"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
 }
 
 #prana > div > div > div[class="columnl"]{
@@ -420,7 +517,7 @@ store {
     margin-right: auto;
 	display: block;
 	color: black;
-	width: 100%;
+	width: 66%;
 }
 #planning > div > div > div[class="column"] > div[id="navigation2"]{
 	display: none;
@@ -429,6 +526,7 @@ store {
 	float: left;
 	display: none;
 	color: green;
+	
 	width: 0%;
 }
 
@@ -442,10 +540,8 @@ store {
     margin-left: auto;
     margin-right: auto;
 	display: block;
-	width: 90%;
-}
-#ateliers > div > div > div[class="column"] > div[id="main_div"]{
-	border: 5 solid red;
+	color: red;
+	width: 100%;
 }
 #ateliers > div > div > div[class="columnr"]{
 	float: left;
@@ -455,7 +551,11 @@ store {
 }
 #ateliers > div > div > div[class="column"] > div[id="navigation2"]{
 	display: none;
+	float: left;
+	color: red;
+	width: 33%;
 }
+
 #eboutique > div > div > div[class="columnl"]{
 	display: none;
 	float: left;
@@ -470,6 +570,7 @@ store {
 #eboutique > div > div > div[class="column"] > div[id="main_content"]{
 	margin: auto;
 	width: 60%;
+	height: 40%;
 }
 
 #eboutique > div > div > div[class="columnr"]{
