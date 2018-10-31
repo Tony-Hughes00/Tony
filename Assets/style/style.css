@@ -569,7 +569,7 @@ store {
 }
 #eboutique > div > div > div[class="column"] > div[id="main_content"]{
 	margin: auto;
-	width: 60%;
+	width: 100%;
 	height: 40%;
 }
 
@@ -579,11 +579,13 @@ store {
 	color: green;
 	width: 55%;
 }
-#eBoutiqueImage {
-	max-height: 100%;
-	width: 100%;
-	padding: auto;
+#eboutique > div > div > div[class="column"] > div[id="navigation2"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
 }
+
 .row1 {
 	padding-top: 40px;
 	margin-top: 2px;
