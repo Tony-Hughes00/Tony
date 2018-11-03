@@ -147,7 +147,6 @@ body {
 	padding-top: 0px;
 }
 #espace-eleve {
-	border: 2px solid green;
 	margin-right: 8%;
 	float: right;
 	width: 20%;
@@ -339,12 +338,29 @@ store {
 	color: red;
 	width: 33%;
 }
-#espaceeleve_body > div > div > div[class="column"] > div[id="main_div"]{
-	float: left;
+#espaceeleve_body div[id="main_div"]{
 	color: red;
-	width: 33%;
+	width: 60%;
+	margin: auto;
 }
 
+.userformimg{
+	width: 25px;
+}
+.eleveicons{
+	width: 25px;
+	position: relative;
+	top: 10px;
+}
+.userinput {
+	position: relative;
+	top: -5px;
+}
+#eleveform {
+	width: 60%;
+	margin: auto;
+	min-height: 400px;
+}
 #espaceeleve_body > div > div > div[class="column"] > div[id="home_image"]{
 	position: aboslute;
 }
