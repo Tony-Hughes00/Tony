@@ -91,7 +91,7 @@ body {
 	margin-left: 10%;
 	margin-right: 10%;
 	background-color: #89A02C;
-	height: 100px;
+	height: 115px;
 	z-index: 20;
 /*	border-left: 4px solid #89A02C;
 /*	border-right: 3% solid #89A02C;	
@@ -113,9 +113,12 @@ body {
 	margin-left: 8%;
 }
 #logo img {
-	width: 50px;
+	width: 20%;
 	border: 5px solid #FFFFFF;
 	border-radius: 50%;
+}
+#userlogo {
+	width: 20%;
 }
 #title {
 	float: left;
@@ -138,6 +141,7 @@ body {
 	border: 2px solid green;
 	margin-right: 8%;
 	float: right;
+	width: 20%;
 }
 #footer {
 	background-color: #89A02C;
@@ -166,7 +170,7 @@ body {
 	margin-left: 10%;
 	margin-right: 10%;
 	background-color: #89A02C;
-	top: 100px;
+	top: 114px;
 }
 .padding {
 	height: 120px;
@@ -566,13 +570,23 @@ store {
 	float: left;
 	color: red;
 	width: 90%;
+	max-height: 500px;
 }
 #eboutique > div > div > div[class="column"] > div[id="main_content"]{
 	margin: auto;
 	width: 100%;
 	height: 40%;
+	max-height: 500px;
 }
-
+#eboutiqueframe .wrap{
+	max-height: 500px;
+}
+.flex-viewport {
+	max-height: 500px;
+}
+#eboutique .slider-wrapper {
+		max-height: 100%;
+}
 #eboutique > div > div > div[class="columnr"]{
 	display: none;
 	float: left;
