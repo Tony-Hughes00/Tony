@@ -140,8 +140,10 @@ body {
 #userlogo {
 	width: 20%;
 	border: 5px solid #D5F33B;
+	border-color: hsla(120, 100%, 70%, 0.0);
 	border-radius: 50%;
 	float: left;
+	background-color: hsla(120, 100%, 70%, 0.0);
 }
 #connectlink {
 	position: relative;
@@ -186,6 +188,10 @@ body {
 	margin-bottom: 30px;
 	border-bottom-left-radius: 40px;
 	border-bottom-right-radius: 40px;
+}
+.contacts {
+	float: left;
+	width: 22.5%;
 }
 #home_content {
 	background-color: #FFFFFF;
