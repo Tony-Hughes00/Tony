@@ -192,6 +192,7 @@ body {
 .contacts {
 	float: left;
 	width: 22.5%;
+	text-align: center;
 }
 #home_content {
 	background-color: #FFFFFF;
@@ -359,6 +360,41 @@ store {
 	float: left;
 	color: red;
 	width: 33%;
+}
+#contacts #main_content {
+	height: 400px;
+	position: relative;
+
+}
+#contacttext {
+	left: 100px;
+	z-index: 31;
+	position: absolute;
+	top: 10px;
+}
+.contacttext {
+	z-index: 32;
+	color: #ffffff;
+	text-align: center;
+	font-size: 2em;
+}
+#contacts > div > div > div[class="columnl"]{
+	display: none;
+}
+#contacts > div > div > div[class="column"]{
+	width: 90%;
+	margin: auto;
+}
+#contacts > div > div > div[class="column"] img{
+	height: 100%;
+	width: 100%;
+	z-index: 30;
+}
+#contacts > div > div > div[class="columnr"]{
+	display: none;
+}
+#contacts > div > div > div[class="column"] > div[id="navigation2"]{
+	display: none;
 }
 #espaceeleve_body > div > div > div[class="columnl"]{
 	float: left;
