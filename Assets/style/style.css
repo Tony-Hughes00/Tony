@@ -361,6 +361,19 @@ store {
 	color: red;
 	width: 33%;
 }
+#about_body > div > div > div[class="columnl"]{
+	display: none;
+}
+#about_body > div > div > div[class="columnr"]{
+	display: none;
+}
+#about_body > div > div > div[class="column"] > div[id="navigation2"]{
+	display: none;
+	float: left;
+	color: red;
+	width: 33%;
+}
+
 #contacts #main_content {
 	height: 400px;
 	position: relative;
